@@ -1,6 +1,6 @@
 //change the limit to however many images to use
-const url = `https://api.thecatapi.com/v1/images/search?limit=20`;
-const api_key = "DEMO_API_KEY"
+const url = "https://api.thecatapi.com/v1/images/search";
+const api_key = "live_M2QnszNjnw9SZQQEzmJjCLlNll9dr0rHA2PPsAU8uBa9gNPJhtKh0BUgtMeR34gD";
 
 function getCatPicture(){
     fetch(url,{headers: {
